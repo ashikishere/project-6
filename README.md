@@ -1,3 +1,7 @@
+# This is For my assignment
+
+![ project-6](./images/thumnail.png)
+
 ### Hi there, I'm Ashikur Zaman - aka [AZ Ashik][facebook] 👋
 
 ## I'm a student, Front-end Web-Developer, and Game lover!!
