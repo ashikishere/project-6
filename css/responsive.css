@@ -1,7 +1,114 @@
- /* responsive css */
+ /* responsive css*/
  
  /* Extra small to mediam device */
 
- @media only screen and (min-width:200px) and (max-width: 768px){
+ @media only screen and (min-width:100px) and (max-width: 768px){
+    .top-header .left li{
+        font-size: 14px;
+    }
+    .top-header .left li:last-of-type{
+        display: none;
+    }
+    .top-header .left li:nth-of-type(2){
+        display: none;
+    }
+    .col-md-12{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .col-md-6{
+        flex-basis: 50%;
+        max-width: 50%
+    }
+    [class*="col-"] {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    .main-header{
+     padding: 10px 0px;
+    }
+    .logo {
+        text-align: center;
+    }
+    .menu{
+        text-align: center;
+        margin: 0;
+    }
+    .menu li{
+        display: block;
+    }
+    /* hero section */
+    .hero{
+        padding: 70px 0px;
+        background-position: center center;
+    }
+    .inner-hero{
+        text-align: center;
+    }
+    .inner-hero small{
+        font-size: 14px;
+    }
+    .inner-hero small::after{
+        width: 100%; 
+    }
+    .inner-hero h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .inner-hero h2{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .inner-hero p{
+        font-size: 14px;
+        margin: 20px 0px;
+    }
+    .hero-btn2{
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    /* tittle section */
+    .title{
+        padding: 20px 0px;
+    }
+    .title h1{
+        font-size: 60px;
+    }
+    .upper-text h2{
+        font-size: 25px;
+        margin-top: -10px;
+    }
+    .upper-text h3{
+        font-size: 30px;
+        margin-top: 5px;
+    }
+
+    /* services section */
+    .services{
+        background: none;
+        padding: 10px 0px;
+    }
+    .services-item{
+        margin-bottom: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    /* projects */
+    .projects{
+        padding: 10px 0px;
+    }
+    .project-items{
+        margin-bottom: 10px;
+    }
+    .pitems-hover{
+        height: 96%;
+    }
+    /* about me */
+    .about{
+        background: none;
+        padding: 10px 0px;
+    }
   
+   
  }
